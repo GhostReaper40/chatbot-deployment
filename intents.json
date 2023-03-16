@@ -11,8 +11,8 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hey, do you need assistance?",
+        "Hello there, thanks for visiting!",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
@@ -29,43 +29,44 @@
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["Happy to help!", "Any time!", "My pleasure","Anything else you need help with?"]
     },
     {
-      "tag": "items",
+      "tag": "Posts",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "How do I see posts?",
+        "Where are posts?",
+        "Where can I find work?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Please click the *Posts* title at the top of the webpage",
+        "If you would like to click the *Posts* icon in the top left of the page"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "Create",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "How do I create an account?",
+        "Can I create and account?",
+        "account?",
+        "Sign up",
+        "signup"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "If you would kindly click the *Sign Up* title in the top right of the screen",
+        "Please click the *Sign Up* text in the top right of the webpage"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "Login",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How do I login?",
+        "How do I log in?",
+        "I have an account?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "If you would kindly click the *Login* title in the top right of the screen",
+        "Please click the *Login* text in the top right of the webpage, and fill in your information"
       ]
     },
     {
@@ -73,11 +74,12 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
+        "Say a joke",
         "Do you know a joke?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "There is a fine line between a numerator and a denominator.",
+        "What do dentists call their x-rays?......... Tooth pics!"
       ]
     }
   ]
