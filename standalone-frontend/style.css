@@ -120,6 +120,8 @@ body {
 
 .chatbox__image--header {
     margin-right: 10px;
+    overflow: hidden;
+    border-radius: 25px;
 }
 
 .chatbox__heading--header {
@@ -197,4 +199,6 @@ body {
     border-bottom-left-radius: 50px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    overflow: hidden;
+   
 }
