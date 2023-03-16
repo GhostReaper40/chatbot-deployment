@@ -19,18 +19,3 @@ def api_response():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-'''
-from flask import Flask
-from flask import request
-import chat
-
-
-app = Flask(__name__)
-
-@app.post("/api/response")
-def OpenDiscusion():
-    message = request.get_json().get('message','')
-    response = chat.get_response(message)
-    return (response)
-'''
