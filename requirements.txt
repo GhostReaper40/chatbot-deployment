@@ -1,5 +1,5 @@
 Flask
+flask_cors
 torch
 torchvision
 nltk
-flask_cors

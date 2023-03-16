@@ -81,6 +81,17 @@
         "There is a fine line between a numerator and a denominator.",
         "What do dentists call their x-rays?......... Tooth pics!"
       ]
+    },
+    {
+      "tag": "profanity",
+      "patterns": [
+        "Fuck you",
+        "fuck off",
+        "You're shit"
+      ],
+      "responses": [
+        "Watch you're profanity!"
+      ]
     }
   ]
 }
