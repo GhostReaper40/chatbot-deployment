@@ -8,27 +8,32 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Heya",
+        "hello",
+        "hi",
+        "hey"
       ],
       "responses": [
         "Hey, do you need assistance?",
-        "Hello there, thanks for visiting!",
+        "Hello there, what would you like to know?",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Heya there, how can I help?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye","Have a nice day"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back again soon.",
+        "If you need any futher assistance, just ask!"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","No thank you"],
       "responses": ["Happy to help!", "Any time!", "My pleasure","Anything else you need help with?"]
     },
     {
@@ -36,7 +41,8 @@
       "patterns": [
         "How do I see posts?",
         "Where are posts?",
-        "Where can I find work?"
+        "Where can I find work?",
+        "I cant find posts"
       ],
       "responses": [
         "Please click the *Posts* title at the top of the webpage",
@@ -44,13 +50,14 @@
       ]
     },
     {
-      "tag": "Create",
+      "tag": "Signin",
       "patterns": [
         "How do I create an account?",
         "Can I create and account?",
         "account?",
         "Sign up",
-        "signup"
+        "signup",
+        "Can i Sign up?"
       ],
       "responses": [
         "If you would kindly click the *Sign Up* title in the top right of the screen",
@@ -62,7 +69,8 @@
       "patterns": [
         "How do I login?",
         "How do I log in?",
-        "I have an account?"
+        "I have an account?",
+        "Can I login?"
       ],
       "responses": [
         "If you would kindly click the *Login* title in the top right of the screen",
@@ -79,19 +87,46 @@
       ],
       "responses": [
         "There is a fine line between a numerator and a denominator.",
-        "What do dentists call their x-rays?......... Tooth pics!"
+        "What do dentists call their x-rays?......... Tooth pics!",
+        "How often did the architect have to put long narrow paths in his blueprints?..........Hallways"
       ]
     },
     {
-      "tag": "profanity",
+      "tag": "CreatePost",
       "patterns": [
-        "Fuck you",
-        "fuck off",
-        "You're shit"
+        "How do I make a post",
+        "How can I make a post",
+        "Can I make a post",
+        "Where can I make a post"
       ],
       "responses": [
-        "Watch you're profanity!"
+        "To upload your work, please log in to your account, go to your user page and select the *Upload work here* button"
       ]
-    }
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me",
+        "Please help me",
+        "Help me"
+      ],
+      "responses": 
+        ["Of course, what is the problem", "What is the problem", "I'm happy to help","Whats your issue?"]
+      
+    },
+    {
+    "tag": "Password",
+    "patterns": [
+      "Lost my password",
+      "Password",
+      "Reset password",
+      "How can I reset my password?",
+      "Can i Reset my password?",
+      "Change password"
+    ],
+    "responses": 
+      ["If you would like to login, and in the top right of the screen click the *Settings* cog icon and click change password"]
+    
+  }
   ]
 }
